@@ -39,43 +39,5 @@ CepApi.java (em subsistema2/cep): Simula uma API externa de consulta de CEP, res
 
 Facade.java: A classe Facade centraliza a lógica para "migrar um cliente", orquestrando chamadas tanto para o CrmService quanto para o CepApi, simplificando a interação para o cliente que usa a Facade.
 
-📂 Estrutura do Projeto
-A estrutura de pastas e arquivos está organizada de forma clara para facilitar a navegação:
-
-.
-├── src/
-│   ├── one/
-│   │   └── digitalinnovation/
-│   │       └── gof/
-│   │           ├── facade/
-│   │           │   └── Facade.java
-│   │           ├── singleton/
-│   │           │   ├── SingletonEager.java
-│   │           │   ├── SingletonLazy.java
-│   │           │   └── SingletonLazyHolder.java
-│   │           ├── strategy/
-│   │           │   ├── Comportamento.java
-│   │           │   ├── ComportamentoAgressivo.java
-│   │           │   ├── ComportamentoDefensivo.java
-│   │           │   └── ComportamentoNormal.java
-│   │           └── Test.java (Renomeado de 'test.java' para seguir a convenção Java)
-│   ├── subsistema1/
-│   │   └── crm/
-│   │       └── CrmService.java
-│   └── subsistema2/
-│       └── cep/
-│           └── CepApi.java
-🚀 Como Rodar o Projeto
-Clone o repositório:
-
-Bash
-
-git clone [LINK_DO_SEU_REPOSITORIO]
-Abra o projeto em sua IDE favorita (IntelliJ IDEA, Eclipse, VS Code com extensions Java, etc.).
-
-Compile o projeto.
-
-Execute a classe Test.java (localizada em src/one/digitalinnovation/gof/Test.java). Ela contém exemplos de uso para cada um dos padrões implementados, demonstrando seu funcionamento no console.
-
 
 Projeto desenvolvido por Diego Monteiro para o Bootcamp da Tonnie em parceria com a DIO.
